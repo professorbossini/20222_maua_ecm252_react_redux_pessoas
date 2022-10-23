@@ -1,9 +1,10 @@
 import React from 'react'
-
+import { selecionarPessoa } from '../actions'
+import PessoaLista from './PessoaLista'
 const App = () => {
   return (
     <div>
-      App
+      <PessoaLista />
     </div>
   )
 }
